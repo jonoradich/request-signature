@@ -1,0 +1,19 @@
+{
+    "name": "jonoradich/request-signature",
+    "description": "Basic service for signing requests and validating request signatures",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jono Radich",
+            "email": "jonoradich@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Radich\\RequestSignature\\": "src/"
+        }
+    }
+}
